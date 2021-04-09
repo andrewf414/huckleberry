@@ -20,12 +20,12 @@ p {
 }
 
 .max-width-wrapper {
-  width: auto;
-  margin: 48px 128px ;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 header {
-  border-bottom: solid 8px hsl(0deg, 0%, 40%);
+  padding-bottom: 48px;
 }
 
 .intro-chunk {
@@ -40,13 +40,15 @@ header {
 
 main {
   background-color: hsl(0deg, 0%, 60%);
-  padding: 32px;
+  border-top: solid 8px hsl(0deg, 0%, 40%);
+  padding: 32px 0;
 }
 
 .card {
   background-color: hsl(0deg, 0%, 100%);
   padding: 8px 32px 32px;
   border-bottom: solid 8px hsl(0deg, 0%, 40%);
+  margin: 48px 0;
 }
 .card p {
   max-width: fit-content;
